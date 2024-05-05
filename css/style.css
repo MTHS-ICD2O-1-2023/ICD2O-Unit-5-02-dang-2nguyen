@@ -2,6 +2,10 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
 
 .mdl-layout__content {
   padding-left: 15pt;
@@ -9,23 +13,30 @@
   padding-top: 15pt;
 }
 
-body {
-  background-color: cornflowerblue;
+.mdl-textfield__error {
+  color: lightgreen;
 }
 
-p {
-  color: white;
+.page-content {
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
-  padding-top: 5pt;
+  font-size: 1.25rem;
+
 }
 
-img {
-  float: left;
-  height: 50px;
-  width: 50px;
+.page-content-answer {
+  color: rgb(0 0 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
-main {
-  padding-left: 5000px;
+img{
+  float: right;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+body {
+  background-color: white;
 }

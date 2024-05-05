@@ -7,7 +7,7 @@ const randomnumber = Math.floor(Math.random() * 6) + 1
 /**
  * This function displays the slider value.
  */
-function myButtonClicked() {
+function checking() {
   alwaysOnButtonChecked = document.getElementById('on-check').checked
   
   if (alwaysOnButtonChecked == true) {
